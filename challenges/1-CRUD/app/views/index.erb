@@ -1,0 +1,10 @@
+<h1>Notes</h1>
+
+<ul>
+  <% @notes.each do |note| %>
+    <li> <%= note.title.upcase  %>: <%= note.content %> </li>
+  <% end %>
+  <%=  %>
+</ul>
+
+<a href="/notes/new">Crea una nota</a>
